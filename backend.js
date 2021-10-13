@@ -13,7 +13,7 @@ db.on('error', console.error.bind(console, "connection error:"))
 db.once('open', () => {
     console.log("Hello World")
 });
-const port = 80;
+const port = process.env.PORT || 80;
 var test = new mongoose.Schema({
     firstname: String,
     lastname: String,
