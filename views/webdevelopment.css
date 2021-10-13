@@ -1,0 +1,112 @@
+body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background: url('../static/code.jpg') no-repeat center center/cover;
+    height: 795px;
+}
+
+.navbar {
+    display:flex;
+    background-color: #642c2c;
+    border-radius: 28px;
+}
+
+.navbarinside {
+
+    display:flex;
+    margin: 12px 75px;
+    padding: 3px 8px;
+    width: 94%;
+}
+
+.navbarinside li {
+    padding: 2px 60px;
+    margin: 2px 2px;
+    list-style: none;
+}
+
+.navbarinside li a {
+    color: white;
+    text-decoration: none;
+    padding: 2px 24px;
+    cursor: pointer;
+}
+
+.navbarinside li a:hover {
+    color: black;
+}
+
+#srch {
+    padding: 0px 5px;
+    height: 29px;
+    margin: 12px 0px;
+}
+
+#btn {
+    padding: 0px 5px;
+    height: 29px;
+    margin: 14px 8px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    color: white;
+}
+#shift{
+    margin:  50px 1000px;
+
+}
+.form {
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    background-color: rgb(255 179 42 / 88%);
+    /* border: 5px solid yellow; */
+}
+
+.form input {
+    position: relative;
+    
+}
+
+#register {
+    width: 260px;
+    cursor: pointer;
+}
+
+#register:hover {
+    color: white;
+}
+
+.regin {
+    margin: 20px 0px;
+}
+
+#em {
+    margin-left: 15px;
+}
+
+#pass {
+    margin-right: 24px;
+}
+
+#conpass {
+    margin-right: 45px;
+
+}
+.btn-group a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    margin:2px 4px ;
+    cursor: pointer;
+}
+.btn-group a:hover{
+    color:darkgrey;
+}
+.btn-group
+{
+    margin: 8px 2px;
+}

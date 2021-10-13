@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaGuru</title>
+    <link rel="stylesheet" href="/views/webresponsive.css">
+    style
+      include webdevelopment.css
+      include webresponsive.css
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbarinside">
+            <li><a href="/webdevelopment.html" target="_blank">Home</a></li>
+            <li><a href="/article.html" target="_blank">Articles</a> </li>
+            <li><a href="/lecture.html" target="_blank">Lecture</a></li>
+            <li><a href="/technews.html" target="_blank">Tech News</a></li>
+            <li><a href="/about.html" target="_blank">About us</a></li>
+        </ul>
+        <input type="text" name="search" id="srch" placeholder="Search">
+        <button id="btn">OK</button>
+    </nav>
+
+
+    <div id ="shift">
+        <form action="/webdevelopment.html" class="form">
+            <div class="btn-group">
+                <a href="webdevelopment.html" class="btn btn-primary active" aria-current="page">Register</a>
+                <a href="signweb.html" class="btn btn-primary">Sign in</a>
+            </div>
+            <div class="regin" id="fn">
+                <label for="fn1">First Name:</label>
+                <input type="text" name="firstname" id="fn1" placeholder="First Name">
+            </div>
+            <div class="regin" id="ln">
+                <label for="ln1">Last Name:</label>
+                <input type="text" name="lastname" id="ln1" placeholder="Last name">
+            </div>
+            <div class="regin" id="em">
+                <label for="em1">Email Id:</label>
+                <input type="email" name="email" id="em1" placeholder="Enter your email">
+            </div>
+            <div class="regin" id="pass">
+                <label for="pass1"> New Password:</label>
+                <input type="password" name="password" id="pass1" placeholder="New Password">
+            </div>
+            <div class="regin" id="conpass">
+                <label for="conpass1"> Confirm Password:</label>
+                <input type="password" name="confirmpassword" id="conpass1" placeholder="Confirm Password">
+            </div>
+            <div class="regin">
+                <button id="register" type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
